@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace trex_Najam_Mshahid_bilal
+namespace trexRunningGame
 {
    
     public partial class Form1 : Form
@@ -53,7 +53,7 @@ namespace trex_Najam_Mshahid_bilal
                 jumpSpeed = 0;
             }
 
-            //moving the obstacles
+            //now lets move the obstacles
 
             foreach (Control x in this.Controls)
 
@@ -84,7 +84,9 @@ namespace trex_Najam_Mshahid_bilal
 
 
         private void keyisdown(object sender, KeyEventArgs e)
-        {   //here checking the "space" key  if pressed then we will make it jump M.Shahid
+        {   //here checking the "space" key is pressed or not and also checking the position
+            //of diansor whether is it alreading in jump postion? if not then we will
+            // make it jump M.Shahid
             if(e.KeyCode==Keys.Space && jumping==false)
             {
                 jumping = true;
@@ -99,8 +101,8 @@ namespace trex_Najam_Mshahid_bilal
             {
                 jumping = false;
             }
-            // when the R button is pressed and the status of game is gameover Mshahid
-          
+            // when the R button is pressed and the status of game is gameover 
+            // i will restart the game Mshahid
             if(e.KeyCode==Keys.R && isGameOver == true)
             {
                 GameReset();

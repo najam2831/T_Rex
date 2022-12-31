@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace trex_Najam_Mshahid_bilal.Properties {
+namespace trexRunningGame.Properties {
     using System;
     
     

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trex_Najam_Mshahid_bilal", "trexGame_Najam_Shahid_Bilal\trex_Najam_Mshahid_bilal.csproj", "{2FFB3AA2-3D1C-4F1A-8C67-00D6FADC3E22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trex_Najam_Mshahid_BilalKhalil", "trexRunningGame\trex_Najam_Mshahid_BilalKhalil.csproj", "{2FFB3AA2-3D1C-4F1A-8C67-00D6FADC3E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

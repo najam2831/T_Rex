@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace trex_Najam_Mshahid_bilal
+namespace trexRunningGame
 {
     internal static class Program
     {

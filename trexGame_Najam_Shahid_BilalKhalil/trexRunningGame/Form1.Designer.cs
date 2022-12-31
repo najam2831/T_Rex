@@ -1,4 +1,4 @@
-﻿namespace trex_Najam_Mshahid_bilal
+﻿namespace trexRunningGame
 {
     partial class Form1
     {
@@ -58,8 +58,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.Image = global::trex_Najam_Mshahid_bilal.Properties.Resources.obstacle_2;
+            this.pictureBox4.Image = global::trexRunningGame.Properties.Resources.obstacle_2;
             this.pictureBox4.Location = new System.Drawing.Point(557, 364);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
@@ -71,8 +70,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.Image = global::trex_Najam_Mshahid_bilal.Properties.Resources.obstacle_1;
+            this.pictureBox3.Image = global::trexRunningGame.Properties.Resources.obstacle_1;
             this.pictureBox3.Location = new System.Drawing.Point(367, 351);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
@@ -95,13 +93,11 @@
             // 
             // trex
             // 
-            this.trex.BackColor = System.Drawing.Color.White;
-            this.trex.Image = global::trex_Najam_Mshahid_bilal.Properties.Resources.running;
-            this.trex.Location = new System.Drawing.Point(120, 358);
+            this.trex.Image = global::trexRunningGame.Properties.Resources.running;
+            this.trex.Location = new System.Drawing.Point(123, 358);
             this.trex.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.trex.Name = "trex";
-            this.trex.Size = new System.Drawing.Size(40, 43);
-            this.trex.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.trex.Size = new System.Drawing.Size(69, 58);
             this.trex.TabIndex = 1;
             this.trex.TabStop = false;
             // 
@@ -109,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox1);
@@ -118,7 +114,7 @@
             this.Controls.Add(this.trex);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "trexEndlessRunning";
+            this.Text = " ";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
