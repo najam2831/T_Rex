@@ -67,7 +67,7 @@ namespace trexRunningGame
                         score++;
                     }
 
-                    //checking if the obstacle collapses with diano Mshahaid
+                    //checking if the obstacle collapses with diano 
                     if(trex.Bounds.IntersectsWith(x.Bounds))
                     {
                         gameTimer.Stop();
@@ -86,7 +86,7 @@ namespace trexRunningGame
         private void keyisdown(object sender, KeyEventArgs e)
         {   //here checking the "space" key is pressed or not and also checking the position
             //of diansor whether is it alreading in jump postion? if not then we will
-            // make it jump M.Shahid
+            // make it jump 
             if(e.KeyCode==Keys.Space && jumping==false)
             {
                 jumping = true;
@@ -96,13 +96,13 @@ namespace trexRunningGame
        
         private void keyisup(object sender, KeyEventArgs e)
         { //here will check whether a dianaso is in jump postion so we will make it
-          // come back to floor Mshahid
+          // come back to floor
             if (jumping==true)
             {
                 jumping = false;
             }
             // when the R button is pressed and the status of game is gameover 
-            // i will restart the game Mshahid
+            // i will restart the game 
             if(e.KeyCode==Keys.R && isGameOver == true)
             {
                 GameReset();
@@ -137,6 +137,11 @@ namespace trexRunningGame
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
